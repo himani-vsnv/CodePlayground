@@ -14,6 +14,7 @@ import React from "react";
 // import Que12 from "./Component/Que12";
 import GetData from "./Component/GetData";
 import Que13 from "./Component/Que13";
+import Que14 from "./Component/Que14";
 const App = () => {
 
  
@@ -34,6 +35,8 @@ const App = () => {
      <Que12/> */}
      {/* <GetData/> */}
      <Que13/>
+     <Que14/>
+
     </>
   )
 }
