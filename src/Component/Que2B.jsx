@@ -11,14 +11,14 @@ import React, { useState } from "react";
     }
     return(
         <div>
-            <p>Stop Count at 5</p>
+            <p style={{color:"blue", fontWeight:"bold ", fontSize:"26px"}}> Stop Count at 5</p>
             <h3>{count}</h3>
              {/* 1method if than button work like stop at 5 */}
             
         <button onClick={()=>hanleCount()}>Limit 5</button>
 
             {/* 2method is disable usme if statemenyt ni likhna */}
-        <button disabled={count===10} onClick={()=>hanleCount()}>Limit 10</button>
+        {/* <button disabled={count===10} onClick={()=>hanleCount()}>Limit 10</button> */}
 
         </div>
     )

@@ -8,11 +8,11 @@ const Que2 = () => {
     console.log(like)
   return (
   <div>
-    <p>Conter</p>
+    <p style={{color:"blue", fontWeight:"bold ", fontSize:"26px"}}>Like Button</p>
      <h3>{like}</h3>
     <button onClick={handleClick} style={{background:"blue", color:"white"}}>Like</button>
-    <FaYoutube/>
-    <FaUser />
+    {/* <FaYoutube/> */}
+    {/* <FaUser /> */}
    
   </div>
   );

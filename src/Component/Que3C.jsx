@@ -16,10 +16,12 @@ import React, { useState } from "react";
     }
     return (
         <div>
-            <p>Counter Between 0 To 10 only </p>
-           <button onClick={()=>handleMins()}>-</button>
-           <p>{count}</p>
+            <p style={{color:"blue", fontWeight:"bold ", fontSize:"26px"}}>Counter Between 0 To 10 only </p>
+          <div style={{display:'flex', gap:'4px'}}>
+          <button onClick={()=>handleMins()}>-</button>
+           <p  style={{color:"pink",  fontSize:"20px"}}>{count}</p>
            <button onClick={()=>handlePlus()}>+</button>
+          </div>
 
         </div>
     )

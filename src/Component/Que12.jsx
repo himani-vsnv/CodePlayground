@@ -27,8 +27,8 @@ const Que12 = () => {
             />
           )
       )}
-      <button onClick={() => handleSlide(-1)}>Prev</button>
-      <button onClick={() => handleSlide(+1)}>Next</button>
+      <button disabled={aIndex===0} onClick={() => handleSlide(-1)}>Prev</button>
+      <button disabled={aIndex===4} onClick={() => handleSlide(+1)}>Next</button>
     </div>
     </>
   );

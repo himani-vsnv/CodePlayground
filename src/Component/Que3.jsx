@@ -12,12 +12,13 @@ const Que3=()=>{
     
     return (
         <div>
-            <p>Increase & Decrease Count</p>
-         <button onClick={()=>handleMins()}>-</button>
-         <p>{count}</p>
-         <button onClick={()=>handlePlus()}>+</button>
+            <p style={{color:"blue", fontWeight:"bold ", fontSize:"26px"}}>Increase & Decrease Count</p>
+        <div style={{display:'flex', gap:'4px', alignItems:'center'}}>
+          <button style={{widtht:"20px",  height:"20px"}} onClick={()=>handleMins()}>-</button>
+          <p style={{color:"purple",  fontSize:"20px"}}>{count}</p>
+          <button style={{widtht:"20px",  height:"20px"}} onClick={()=>handlePlus()}>+</button>
+        </div>
         </div>
     )
 }
-
 export default Que3
